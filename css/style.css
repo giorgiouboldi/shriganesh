@@ -1,0 +1,390 @@
+@font-face {
+font-family: 'fontawesome';
+src:url('../fonts/fontawesome/fontawesome.eot?-e43dk9');
+src:url('../fonts/fontawesome/fontawesome.eot?#iefix-e43dk9') format('embedded-opentype'),
+url('../fonts/fontawesome/fontawesome.woff?-e43dk9') format('woff'),
+url('../fonts/fontawesome/fontawesome.ttf?-e43dk9') format('truetype'),
+url('../fonts/fontawesome/fontawesome.svg?-e43dk9#fontawesome') format('svg');
+font-weight: normal;
+font-style: normal;
+} /* Made with http://icomoon.io/app */
+
+
+html {
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+}
+
+
+body {
+width: 100%;
+height: 100%;
+font-family: 'Cardo', serif;
+color: #333333;
+border-top: 20px solid #dbe0e0;
+border-left: 20px solid #dbe0e0;
+border-right: 20px solid #dbe0e0;
+border-bottom: 20px solid #dbe0e0;
+}
+
+a {
+text-decoration: underline;
+}
+
+a:active{
+color:#dba43d;
+}
+
+.container {
+
+}
+
+section {
+margin-bottom: 150px;
+}
+
+/*Navbar*/
+.navbar-brand{
+padding-top: 20px;
+}
+
+
+.navbar-default {
+margin-right: 40px;
+margin-left: 40px;
+margin-top: 15px;
+font-size: 15px;
+line-height: 30px;
+font-family: LydianBT-Roman;
+text-transform: uppercase;
+letter-spacing: 4px;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+background-color: transparent;
+
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+background-color: transparent;
+color: #436360 !important;
+}
+
+.navbar-nav{
+padding-top: 20px;
+}
+
+.navbar-default .navbar-nav>.active>a{
+color: #436360 !important;
+}
+
+.navbar-nav>li>a {
+padding-top: 3px;
+padding-bottom:1px;
+text-decoration: none;
+}
+
+ul.nav a {
+color: #999999 !important;
+}
+
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus  {
+color: #436360 !important;
+}
+
+.navbar-nav>li{
+float: none;
+right: 0;
+text-align: right;
+margin-right: 0;
+}
+
+
+/*Intro*/
+
+#hero{
+height:100vh;
+}
+
+.header{
+top: 30px;
+padding-top: 150px;
+}
+
+.header h1{
+text-align: center;
+font-size: 65px;
+line-height: 110%;
+color: #7c9190;
+margin-top: 35px;
+}
+
+.header h2{
+margin-top: 30px;
+font-size: 15px;
+line-height: 30px;
+font-family: LydianBT-Roman;
+text-transform: uppercase;
+letter-spacing: 4px;
+text-align: center;
+}
+
+.header h3{
+margin-top: 60px;
+letter-spacing: 4px;
+}
+
+.header p{
+font-size: 24px;
+line-height: 110%;
+color: #7c9190;
+margin-top: 40px;
+}
+
+.darker {
+color: #204946;
+}
+
+.book img {
+width: 100%;
+margin-bottom: 100px;
+margin-top: 100px;
+padding: 0 22px;
+}
+
+/*Menu*/
+
+hr{
+border-top: 1px solid #DDD;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+.salse hr {
+display: none;
+}
+
+.grid-divider {
+position: relative;
+padding: 0;
+}
+.grid-divider>[class*='col-'] {
+position: static;
+}
+.grid-divider>[class*='col-']:nth-child(n+2):before {
+content: "";
+border-left: 1px solid #DDD;
+position: absolute;
+top: 0;
+bottom: 0;
+}
+.col-padding {
+padding: 0 0 0 10px;
+}
+
+/*Typography*/
+
+
+h3 {
+font-family: LydianBT-Roman;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 19px;
+color: #204946;
+margin-bottom: 3px;
+margin-top:0px;
+}
+
+h4 {
+font-family: LydianBT-Roman;
+letter-spacing: 2px;
+font-size: 15px;
+color: #204946;
+margin-bottom: 3px;
+margin-top:0px;
+}
+
+.lead {
+color: #68807f;
+font-style: italic;
+font-size: 17px;
+}
+
+p {
+font-size: 13px;
+color: #204946;
+width: 90%;
+margin-bottom: 20px;
+}
+
+.clearfix p {
+font-size: 13px;
+color: #204946;
+width: 80%;
+margin-bottom: 0px;
+}
+
+.lightwidget.hover-caption-slide-up .in-caption {
+	font-family: 'Cardo'!important;
+}
+
+/*Images*/
+#foto img {
+object-fit: cover;
+width: 100%;
+height: 280px;
+margin-top: 0px;
+}
+
+/*Map*/
+#map {
+width: 100%;
+height: 380px;
+}
+
+/*Footer*/
+.footer {
+height: 40px;
+background-color: #dbe0e0;
+padding-top: 20px;
+padding-right: 5px;
+}
+
+.footer p{
+width: auto;
+}
+
+.footer a{
+color: #204946;
+font-family: LydianBT-Roman;
+letter-spacing: 1px;
+text-decoration: none;
+}
+
+
+// Small screens
+@media only screen {
+} /* Define mobile styles */
+
+@media only screen and (max-width: 40em) {
+.brand-mobile{
+padding-top: 20px;
+position: absolute;
+width: 100%;
+left: 0;
+top: 0;
+text-align: center;
+margin: auto;
+}
+
+#hero{
+height:100vh;
+}
+
+.header{
+top: 30px;
+padding: 50px 20px;
+}
+
+.header h1{
+text-align: center;
+font-size: 30px;
+line-height: 100%;
+color: #7c9190;
+margin-top: 50px;
+}
+
+.header h2{
+font-size: 12px;
+line-height: 24px;
+font-family: LydianBT-Roman;
+text-transform: uppercase;
+letter-spacing: 4px;
+text-align: center;
+}
+
+body {
+width: 100%;
+height: 100%;
+font-family: 'Cardo', serif;
+color: #333333;
+border-top: 10px solid #dbe0e0;
+border-left: 10px solid #dbe0e0;
+border-right: 10px solid #dbe0e0;
+border-bottom: 10px solid #dbe0e0;
+}
+.grid-divider>[class*='col-']:nth-child(n+2):before {
+border-left: 0px solid #DDD;
+}
+
+hr{
+border-top: 1px solid #DDD;
+margin-bottom: 20px;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+.salse{
+  padding-top: 30px;
+}
+
+.salse hr{
+  display: block;
+}
+
+.footer {
+height: 150px;
+background-color: #dbe0e0;
+padding-top: 20px;
+padding-right: 5px;
+
+}
+
+.footer p {
+  text-align: center;
+  float: left!important;
+  width: 100%;
+}
+
+.book img {
+width: 100%;
+margin-bottom: 100px;
+margin-top: 0px;
+padding: 0px;
+}
+
+#menu{
+	margin-top: 100px;
+}
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) {
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) {
+} /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) {
+} /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+} /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) {
+} /* min-width 1921px, xxlarge screens */
