@@ -222,6 +222,23 @@ width: 90%;
 margin-bottom: 20px;
 }
 
+.book-online a {
+	color: #204946;
+	font-family: LydianBT-Roman;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size: 36px;
+	text-decoration: none;
+}
+
+.book-online a:hover {
+	text-decoration: underline;
+}
+
+.book-online {
+	margin-bottom: 50px;
+}
+
 .clearfix p {
 font-size: 13px;
 color: #204946;
